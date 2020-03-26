@@ -1,0 +1,146 @@
+
+/*TAGs*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-size: 100%;
+    background-image: url(buda1.png);
+    background-position: top;
+}
+
+footer{
+    clear: both;
+    height: auto;
+    background-color: rgba(175, 117, 9, 0.5);
+    color: black;
+    text-shadow: 1px,1px,1px;
+   
+}
+ 
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+li{
+    padding: 0px 50px 0px 20px;
+}
+/*IDs*/
+
+#nome{ 
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    margin: 0px;
+}
+
+#introducao{
+    color: white;
+    min-height: 200px;
+    padding: 0px 0px 50px 0px;
+
+}
+
+#introducao img{
+    margin: 0px 0px 20px 0px;
+    border-radius: 50%;
+}
+
+
+#curiosidades{
+    color: white;
+    min-height: 200px;
+    padding: 50px 0px 50px 0px;
+    text-align: left;
+
+}
+
+#hobbies{
+    color: white;
+    min-height: 200px;
+    padding: 50px 0px 25px 0px;
+    text-align: left;
+}
+
+#contato{
+    margin-bottom: 30px;
+    background-color: rgba(175, 117, 9, 0.5);
+    padding: 5px 5px 5px 5px;
+    width: 110px;
+    float: right
+}
+
+#fim{
+    clear: both;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(175, 117, 9, 0.6);
+    border-radius: 10px;
+}
+
+/*CLASS*/
+
+.sticky-top{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-top: 200px ;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.sticky-top p{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+.sticky-top a{
+    text-decoration: none;
+    color:tomato;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+
+.sticky-top a:hover{
+    background-color: rgba(255,99,71, 0.2);
+    padding: 15px 10px 15px 10px ;
+    color: white;
+
+}
+
+.container{
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
+    font-size: 20px;
+
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 150px 100px 150px;
+}
+
+.efeito a{
+    text-decoration-line: underline;
+    color: white;
+    
+}
+
+.efeito a:hover{
+        color: grey;
+    }
+
+.insta a{
+    text-decoration: none;
+}
+.whats a{
+    text-decoration: none;
+}
+.email a{
+    text-decoration: none;
+}
